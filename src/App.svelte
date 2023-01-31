@@ -6,7 +6,10 @@
   import HungerPovertyTable from "./components/sections/common/charts/hunger-poverty-table.svelte";
 </script>
 
-<body>
+  <header>
+    <img src="./WGS-summit-logo-transparency.png" alt="WGS Summit Logo" />
+  </header>
+
   <h1>A Step Forward, But Still Short</h1>
 
   <p>
@@ -28,19 +31,29 @@
   <HungerSection />
 
   <HealthSection />
-</body>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700&family=Hahmlet:ital,wght@0,400;0,700&family=Glass+Antiqua:ital,wght@0,400&display=swap");
 
-  h1, p{
-    margin-left:  auto;
-    margin-right:  auto;
+  header{
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  img{
+    width: 200px;
+  }
+
+  h1,
+  p {
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
     max-width: 60ch;
   }
 
-  p{
+  p {
     color: #666;
     font-size: 20px;
     line-height: 1.4;
