@@ -443,7 +443,10 @@ h1 {
     width: min-content;
 }
 
-.section h1, .section h2, .section p, .section .milton__embed  {
+.section h1,
+.section h2,
+.section p,
+.section .milton__embed {
     width: fit-content;
     margin: 0 auto;
 }
@@ -476,6 +479,15 @@ h1 {
     letter-spacing: -0.4px;
 }
 
-.section .milton__embed{
+.section .milton__embed {
     margin-top: 30px;
+}
+
+@media(max-width: 700px) {
+    html{
+        background-color: #efefef;
+    }
+    body {
+        padding: 10px;
+    }
 }

@@ -23,7 +23,7 @@
                     data-id="output"
                 >
                     <g id="107:5937-ctjg" data-id="107:5937">
-                        <rect width="520" height="910" fill="white" />
+                        <rect width="520" height="910" fill="transparent" />
                         <g id="viz-939o" data-id="viz">
                             <g id="Group-cylj" data-id="Group">
                                 <g id="Group_2-1dsi" data-id="Group_2">
@@ -514,7 +514,7 @@
                         </g>
                     </g>
                     <g id="107:5988-8t0m" data-id="107:5988">
-                        <rect width="304" height="1609" fill="white" />
+                        <rect width="304" height="1609" fill="transparent" />
                         <g id="viz_2-f3gt" data-id="viz_2">
                             <g id="Group_25-7yev" data-id="Group_25">
                                 <g id="Group_26-x566" data-id="Group_26">
@@ -1005,7 +1005,7 @@
                         </g>
                     </g>
                     <g id="107:6036-jbkv" data-id="107:6036">
-                        <rect width="743" height="1200" fill="white" />
+                        <rect width="743" height="1200" fill="transparent" />
                         <g id="viz_3-5a8s" data-id="viz_3">
                             <g id="Group_49-7cdx" data-id="Group_49">
                                 <g id="Group_50-t4iw" data-id="Group_50">
@@ -1498,7 +1498,7 @@
                 </g>
                 <defs>
                     <clipPath id="clip0_108_8360-zmbh" data-id="clip0_108_8360">
-                        <rect width="743" height="1609" fill="white" />
+                        <rect width="743" height="1609" fill="transparent" />
                     </clipPath>
                 </defs>
             </svg>
@@ -9557,7 +9557,7 @@
     }
 
     .milton__embed {
-        background-color: rgb(255, 255, 255);
+        background-color: transparent;
     }
 
     .milton__svg_container,
@@ -9582,7 +9582,7 @@
 
     @media (min-width: 520px) {
         .milton__embed {
-            background-color: rgb(255, 255, 255);
+            background-color: transparent;
         }
 
         .milton__svg_container,
@@ -9612,7 +9612,7 @@
 
     @media (min-width: 743px) {
         .milton__embed {
-            background-color: rgb(255, 255, 255);
+            background-color: transparent;
         }
 
         .milton__svg_container,

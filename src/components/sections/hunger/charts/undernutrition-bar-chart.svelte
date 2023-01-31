@@ -23,7 +23,7 @@
                     data-id="output"
                 >
                     <g id="82:452-n77f" data-id="82:452">
-                        <rect width="520" height="549" fill="white" />
+                        <rect width="520" height="549" fill="transparent" />
                         <g
                             id="hunger-undernourished-percs 2-s2x7"
                             data-id="hunger-undernourished-percs 2"
@@ -31,7 +31,7 @@
                             <path
                                 id="backgorund-ng5o"
                                 d="M406.267 167.593H23.1849V475.668H406.267V167.593Z"
-                                fill="white"
+                                fill="transparent"
                                 data-id="backgorund"
                             />
                             <g id="viz-6jsz" data-id="viz">
@@ -237,7 +237,7 @@
                         </g>
                     </g>
                     <g id="82:497-bv1n" data-id="82:497">
-                        <rect width="300" height="531" fill="white" />
+                        <rect width="300" height="531" fill="transparent" />
                         <g
                             id="hunger-undernourished-percs 2_2-70ok"
                             data-id="hunger-undernourished-percs 2_2"
@@ -445,7 +445,7 @@
                         </g>
                     </g>
                     <g id="82:534-0lfx" data-id="82:534">
-                        <rect width="672" height="604" fill="white" />
+                        <rect width="672" height="604" fill="transparent" />
                         <g
                             id="hunger-undernourished-percs 2_3-qz60"
                             data-id="hunger-undernourished-percs 2_3"
@@ -453,7 +453,7 @@
                             <path
                                 id="backgorund_2-d622"
                                 d="M624 160H40V577.715H624V160Z"
-                                fill="white"
+                                fill="transparent"
                                 data-id="backgorund_2"
                             />
                             <g id="viz_3-4qtb" data-id="viz_3">
@@ -661,7 +661,7 @@
                 </g>
                 <defs>
                     <clipPath id="clip0_83_1173-071d" data-id="clip0_83_1173">
-                        <rect width="672" height="604" fill="white" />
+                        <rect width="672" height="604" fill="transparent" />
                     </clipPath>
                 </defs>
             </svg>
@@ -2305,7 +2305,7 @@
     }
 
     .milton__embed {
-        background-color: rgb(255, 255, 255);
+        background-color: transparent;
     }
 
     .milton__svg_container,
@@ -2330,7 +2330,7 @@
 
     @media (min-width: 520px) {
         .milton__embed {
-            background-color: rgb(255, 255, 255);
+            background-color: transparent;
         }
 
         .milton__svg_container,
@@ -2360,7 +2360,7 @@
 
     @media (min-width: 672px) {
         .milton__embed {
-            background-color: rgb(255, 255, 255);
+            background-color: transparent;
         }
 
         .milton__svg_container,

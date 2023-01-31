@@ -12,7 +12,7 @@
 			<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
 			<g id="output-xbmd" clip-path="url(#clip0_138_301-s1tm)" data-id="output">
 			<g id="138:223-4oit" clip-path="url(#clip1_138_301-lte2)" data-id="138:223">
-			<rect width="320" height="480" fill="white"></rect>
+			<rect width="320" height="480" fill="transparent"></rect>
 
 
 
@@ -62,7 +62,7 @@
 			</g>
 			</g>
 			<g id="138:261-eiyi" data-id="138:261">
-			<rect width="720" height="283" fill="white"></rect>
+			<rect width="720" height="283" fill="transparent"></rect>
 
 			<g id="Group 36-eh1c" data-id="Group 36">
 
@@ -118,10 +118,10 @@
 			</g>
 			<defs>
 			<clipPath id="clip0_138_301-s1tm" data-id="clip0_138_301">
-			<rect width="720" height="480" fill="white"></rect>
+			<rect width="720" height="480" fill="transparent"></rect>
 			</clipPath>
 			<clipPath id="clip1_138_301-lte2" data-id="clip1_138_301">
-			<rect width="320" height="480" fill="white"></rect>
+			<rect width="320" height="480" fill="transparent"></rect>
 			</clipPath>
 			</defs>
 			</svg>
@@ -864,7 +864,7 @@
 
 
             .milton__embed {
-              background-color: rgb(255, 255, 255);
+              background-color: transparent !important;
             }
        
             .milton__svg_container,
@@ -879,7 +879,7 @@
           @media (min-width: 720px) {
 
             .milton__embed {
-              background-color: rgb(255, 255, 255);
+              background-color: transparent !important;
             }    
 
             .milton__svg_container,
