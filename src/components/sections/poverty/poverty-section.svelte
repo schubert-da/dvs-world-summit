@@ -13,7 +13,7 @@
         last 10 years, there have been both positive and negative changes in
         poverty levels around the world.
     </p>
-
+    <br />
     <p>
         On a global scale, the number of people living in extreme poverty
         (defined as living on less than $1.90 per day) has decreased. According
@@ -24,6 +24,7 @@
         aimed at reducing poverty.
     </p>
 
+    <br />
     <br />
 
     <PovertyBarChart />

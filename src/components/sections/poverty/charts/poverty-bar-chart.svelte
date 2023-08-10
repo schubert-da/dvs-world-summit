@@ -6,6 +6,10 @@
   # Key: MISSING_KEY
 -->
 
+<script>
+	import SourceAnnotation from "../../common/source-annotation.svelte";
+</script>
+
 <div class="milton__embed ">
 	<div class="milton__wrap" style="position: relative;">
 		<div class="milton__svg_container">
@@ -1724,6 +1728,7 @@
 	</div>
 	<div class="custom_html" />
 </div>
+<SourceAnnotation />
 
 <style>
 	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700&display=swap");
