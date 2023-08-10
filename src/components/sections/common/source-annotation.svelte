@@ -1,11 +1,16 @@
+<script>
+    export let sourceIndex = 0;
+    export let sourceDescription = "Trust me bro - Me, 1997";
+</script>
+
 <div class="source-container">
     <div class="source-index">
         <div class="source-number">
-            2
+            {sourceIndex}
         </div>
     </div>
     <div class="source-description">
-        This is a long source.. will figure out what goes here eventually.
+        {sourceDescription}
     </div>
 </div>
 
@@ -17,7 +22,7 @@
     .source-container {
         position: relative;
         color: #444;
-        font-size: 18px;
+        font-size: 16px;
         height: var(--annotation-height);
         width: fit-content;
         line-height: 1.4;
