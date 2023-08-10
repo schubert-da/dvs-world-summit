@@ -29,10 +29,11 @@
 
     <PovertyBarChart />
 
+    <h3 class="para-header"> So did COVID-19 throw us off the mark?</h3>
     <p>
         The deceleration indicates that the world is not on track to achieve the
         target of less than 3 percent of the world living in extreme poverty by
-        2030. The progress was good, but was still not enough, 2019 projections
+        2030. The progress was good, but was still not enough, even in 2019 projections
         still showed us with 6% people living in extreme poverty in 2030.
         <br /><br />
         Poverty still remained a significant issue in many parts of the world,
@@ -50,6 +51,7 @@
         was further advanced due to rising inflation and the ongoing war in
         Ukraine. Around 75-95 million people additional people will will be
         living in extreme poverty as compared to pre-pandemic projections.
+        <br />
         <br />
         <PovertyProjectionLineChart />
         <br />

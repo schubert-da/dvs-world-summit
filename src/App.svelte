@@ -27,9 +27,9 @@
 
   <PovertySection />
 
-  <HungerPovertyTable />
-
   <HungerSection />
+
+  <HungerPovertyTable />
 
   <HealthSection />
 

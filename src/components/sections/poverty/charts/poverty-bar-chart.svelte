@@ -1728,7 +1728,7 @@
 	</div>
 	<div class="custom_html" />
 </div>
-<SourceAnnotation />
+<SourceAnnotation sourceIndex="1" sourceDescription="Data on Poverty - Our World in Data"/>
 
 <style>
 	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700&display=swap");

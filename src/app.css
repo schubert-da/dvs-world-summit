@@ -463,13 +463,23 @@ h1 {
 }
 
 .section h2 {
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 0;
     letter-spacing: -2px;
     font-family: "Inter", sans-serif;
     color: #222;
     font-size: 32px;
     font-weight: 600;
+}
+
+.section h3.para-header {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: -1.0px;
+    margin-bottom: 10px;
 }
 
 .section p {
@@ -488,6 +498,7 @@ h1 {
     html{
         background-color: #efefef;
     }
+
     body {
         padding: 10px;
     }
