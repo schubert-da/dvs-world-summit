@@ -18,7 +18,6 @@
                 last 10 years, there have been both positive and negative changes in
                 poverty levels around the world.
             </p>
-            <br />
             <p>
                 On a global scale, the number of people living in extreme poverty
                 (defined as living on less than $1.90 per day) has decreased. According
@@ -28,8 +27,6 @@
                 growth in many developing countries, as well as government policies
                 aimed at reducing poverty.
             </p>
-            <br />
-            <br />
         </div>
         
         <div class="step" class:active={currentStep >= 1}>
@@ -45,7 +42,8 @@
                 <span class="highlight">
                     2019 projections still showed 6% of all people living in extreme poverty in 2030.
                 </span>
-                <br /><br />
+            </p>
+            <p>
                 Poverty still remained a significant issue in many parts of the world,
                 <b>particularly in sub-Saharan Africa and South Asia</b>. Despite being
                 employed, 8% of the world's workers still lived in poverty - In
@@ -64,8 +62,6 @@
                 Ukraine. Around 75-95 million people additional people will will be
                 living in extreme poverty as compared to pre-pandemic projections.
             </p>
-            <br />
-            <br />
         </div>
 
         <div class="step" class:active={currentStep >= 4}>
@@ -78,31 +74,10 @@
                 In 2020, for the first time in two decades, the world's share of workers
                 living with their families below the international poverty line increased,
                 from 6.7 per cent in 2019 to 7.2 per cent, meaning that
-                <b>an additional 8 million workers were pushed into poverty</b>.
+                <span class="highlight">
+                    in 2020, an additional 8 million workers were pushed into poverty
+                </span>
             </p>
         </div>
     </Scrolly>
 </div>
-
-<style>
-    .step{
-        opacity: 0;
-        transition: opacity 500ms ease-in;
-    }
-
-    .step.active{
-        opacity: 1;
-    }
-
-    .step .highlight{
-        padding: 0 3px;
-        background: linear-gradient(90deg, #A68171 50%, rgba(255, 255, 255, 0) 50%);
-        background-size: 200% 100%;
-        background-position: 100% 0;
-        transition: background-position 800ms 1000ms ease-in-out;
-    }
-    .step.active .highlight{
-        color: #efefef;
-        background-position: 0 0;
-    }
-</style>

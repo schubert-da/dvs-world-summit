@@ -490,8 +490,40 @@ h1 {
     letter-spacing: -0.4px;
 }
 
+.section p + p {
+    margin-top: 30px;
+}
+
+.section p:last-of-type {
+    margin-bottom: 60px;
+}
+
 .section .milton__embed {
     margin-top: 30px;
+}
+
+.step{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.step.active{
+    opacity: 1;
+}
+
+.step .highlight{
+    color: #222;
+    padding: 0 3px;
+    background: linear-gradient(90deg, #A68171 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 800ms 600ms ease-in-out, color 200ms 600ms ease-in-out;
+}
+
+.step.active .highlight{
+    color: #efefef;
+    font-weight: 600;
+    background-position: 0 0;
 }
 
 @media(max-width: 700px) {
