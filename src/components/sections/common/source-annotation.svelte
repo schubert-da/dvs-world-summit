@@ -79,8 +79,4 @@
         margin-right: 10px;
         margin-left: -8px;
     }
-
-
-    
-
 </style>
