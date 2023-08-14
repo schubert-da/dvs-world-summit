@@ -494,7 +494,7 @@ h1 {
     margin-top: 30px;
 }
 
-.section p:last-of-type {
+.section:not(.sources-section) p:last-of-type {
     margin-bottom: 60px;
 }
 
