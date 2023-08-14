@@ -1,4 +1,5 @@
 <script>
+    import SourceAnnotation from "../../common/source-annotation.svelte";
     import TableLegend from "./table-legend.svelte";
     import { sdg_health_data } from "../../../../data/sdg_progress_health";
 
@@ -199,11 +200,12 @@
     </div>
 </div>
 
+<SourceAnnotation sourceIndex="3" sourceDescription="Online database for the Sustainable Development Report 2022"/>
 
 <style>
     .table-section {
         width: fit-content;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
     }
 
     .title, .desc{
@@ -214,7 +216,7 @@
 
     .desc {
         font-size: 18px;
-        width: 60ch;
+        max-width: 60ch;
         margin-top: 20px;
     }
 
@@ -242,6 +244,7 @@
     }
     
     .table {
+        margin: 0 auto;
         width: 900px;
 
         display: grid;
@@ -349,5 +352,27 @@
     .header-label.sort-by:after {
         border-top-color: #666;
         margin-top: 1px;
+    }
+
+    @media (max-width: 720px) {
+
+        .table {
+            overflow-x: scroll;
+            grid-template-columns: 100px repeat(4, 10fr 5fr 1fr);
+            grid-template-rows: repeat(17, 40px);
+            font-size: 16px;
+        }
+
+        .data-country-name, .big-label, .header-label.big-label{
+            font-size: 16px;
+        }
+        
+        .header-label.big-label{
+            color: #222;
+            font-weight: bold;
+            text-align: center;
+            grid-row: 1/1;
+            border-bottom: 2px solid #999;
+        }
     }
 </style>

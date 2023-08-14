@@ -1,3 +1,6 @@
+<script>
+    import SourceAnnotation from "../../common/source-annotation.svelte";
+</script>
 <!--
   # [ Milton Export v0.7.0 ]
   # 
@@ -9449,6 +9452,8 @@
     </div>
     <div class="custom_html" />
 </div>
+
+<SourceAnnotation sourceIndex="6" sourceDescription="(6-12, multiple datasets) WHO, Our World in Data, The World Bank..."/>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700&family=Arial:ital,wght@0,700&display=swap");

@@ -10,7 +10,9 @@
         </div>
     </div>
     <div class="source-description">
-        {sourceDescription}
+        <a href="#source-{sourceIndex}">
+            {sourceDescription}
+        </a>
     </div>
 </div>
 
@@ -39,18 +41,19 @@
         margin: 0px 0 70px 0;
     }
 
-    .source-container::after, .source-container::before{
+    .source-container::after,
+    .source-container::before {
         position: absolute;
         content: "";
-        width: calc( var( --annotation-height) / 2);
-        height: var( --annotation-height);
+        width: calc(var(--annotation-height) / 2);
+        height: var(--annotation-height);
         border: 1px solid #666;
     }
 
     .source-container::after {
         border-left: none;
-        border-top-right-radius: calc( var( --annotation-height) / 2);
-        border-bottom-right-radius: calc( var( --annotation-height) / 2);
+        border-top-right-radius: calc(var(--annotation-height) / 2);
+        border-bottom-right-radius: calc(var(--annotation-height) / 2);
 
         top: -1px;
         right: -12px;
@@ -58,8 +61,8 @@
 
     .source-container::before {
         border-right: none;
-        border-top-left-radius: calc( var( --annotation-height) / 2);
-        border-bottom-left-radius: calc( var( --annotation-height) / 2);
+        border-top-left-radius: calc(var(--annotation-height) / 2);
+        border-bottom-left-radius: calc(var(--annotation-height) / 2);
 
         top: -1px;
         left: -12px;
@@ -78,5 +81,10 @@
         align-items: center;
         margin-right: 10px;
         margin-left: -8px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #444;
     }
 </style>

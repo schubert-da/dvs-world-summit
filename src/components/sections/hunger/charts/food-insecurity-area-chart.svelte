@@ -1,3 +1,6 @@
+<script>
+    import SourceAnnotation from "../../common/source-annotation.svelte";
+</script>
 <!--
   # [ Milton Export v0.7.0 ]
   # 
@@ -1282,6 +1285,7 @@
 	<div class="custom_html"></div>
 </div>
 
+<SourceAnnotation sourceIndex="5" sourceDescription="Food and Agriculture Organization(FAO) of the United Nations"/>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700&display=swap');
     html,

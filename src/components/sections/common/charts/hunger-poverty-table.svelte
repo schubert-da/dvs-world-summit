@@ -1,4 +1,5 @@
 <script>
+    import SourceAnnotation from "../../common/source-annotation.svelte";
     import TableLegend from "./table-legend.svelte";
     import { sdg_hunger_poverty_data } from "../../../../data/sdg_progress_hunger_poverty";
 
@@ -202,12 +203,12 @@
             </div>
         {/each}
     </div>
+    <br>
+    <SourceAnnotation sourceIndex="3" sourceDescription="Online database for the Sustainable Development Report 2022"/>
 </div>
-
-
 <style>
     .table-section {
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
     }
 
     .title, .desc{

@@ -135,7 +135,7 @@
             <div class="source-index" id="source-13">
                 <div class="source-number"> 13 </div>
             </div>
-            <a href="https://population.un.org/wpp/Download/Standard/MostUsed/">Unite Nations - World Population Prospects</a>
+            <a href="https://population.un.org/wpp/Download/Standard/MostUsed/">United Nations - World Population Prospects</a>
             <p>
                 Global data on life expectancy in different countries.
             </p>
