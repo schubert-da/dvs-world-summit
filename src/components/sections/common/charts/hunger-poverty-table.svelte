@@ -208,6 +208,7 @@
 </div>
 <style>
     .table-section {
+        width: fit-content;
         margin: 0 auto 30px auto;
     }
 

@@ -26,11 +26,19 @@
         </div>
 
         <div class="step" class:active={currentStep >= 2}>
+            <h3 class="para-header" style="margin-left: 22px;">
+                Why is hunger and food insecurity getting worse?
+            </h3>
+
             <p>
                 Public investment in agriculture globally is declining, small
                 scale food producers and family farmers require much greater
                 support and increased investment in infrastructure and
-                technology for sustainable agriculture is urgently needed.
+                technology for sustainable agriculture is urgently needed. 
+                <strong>
+                    A fundamental shift in trajectory is needed to achieve the
+                    2030 nutrition targets
+                </strong>.
             </p>
 
             <p>
@@ -44,7 +52,11 @@
             </p>
         </div>
 
-        <div class="step" class:active={currentStep >= 3} style="margin-bottom: 60px;">
+        <div
+            class="step"
+            class:active={currentStep >= 3}
+            style="margin-bottom: 60px;"
+        >
             <FoodInsecurityAreaChart />
         </div>
 
