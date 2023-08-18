@@ -53,8 +53,9 @@
 
         <div class="step" class:active={currentStep >= 4}>
             <p>
-                There are still huge differences that have to be
-                addressed: in several countries in Sub-Saharan Africa the
+                There are still 
+                <span class="highlight"> huge differences that have to be addressed</span>: 
+                in several countries in Sub-Saharan Africa the
                 average life expectancy is still less than 60 years, compared to
                 more than 80 years in European countries or Japan.
             </p>

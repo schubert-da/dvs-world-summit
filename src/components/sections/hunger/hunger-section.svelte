@@ -20,7 +20,7 @@
             </p>
         </div>
 
-        <div class="step" class:active={currentStep >= 1}>
+        <div class="step undernutrition-bar-chart" class:active={currentStep >= 1}>
             <br />
             <UndernutritionBarChart />
         </div>
@@ -74,3 +74,49 @@
         </div>
     </Scrolly>
 </div>
+
+<style>
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--1),
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-text--1),
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-line--1),
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--2),
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-text--2),
+	.undernutrition-bar-chart :global(.milton__embed .hunger-annot-line--2) {
+		opacity: 0;
+		transition: all 700ms 900ms ease-in;
+	}
+
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-bar--1),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-text--1),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-line--1),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-bar--2),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-text--2),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-line--2) {
+		opacity: 1;
+	}
+
+    .undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--1),
+    .undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--2){
+        opacity: 1;
+        fill: #999;
+    }
+
+    .undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-bar--1),
+    .undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-bar--2){
+        opacity: 1;
+        fill: #404040;
+    }
+
+    .undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--1){
+        transition-delay: 500ms;
+    }
+
+    .undernutrition-bar-chart :global(.milton__embed .hunger-annot-bar--2){
+        transition-delay: 1600ms;
+    }
+
+    .undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-text--2),
+	.undernutrition-bar-chart.active :global(.milton__embed .hunger-annot-line--2){
+        transition-delay: 2000ms;
+    }
+</style>

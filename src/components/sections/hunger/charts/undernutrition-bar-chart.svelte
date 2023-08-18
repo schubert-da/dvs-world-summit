@@ -591,6 +591,7 @@
                                                 data-id="undefined - 2016_3"
                                             />
                                             <path
+                                                class="hunger-annot-bar--1"
                                                 id="undefined - 2017_3-hqt7"
                                                 d="M468.632 286.572H425.421V456.295H468.632V286.572Z"
                                                 fill="#404040"
@@ -609,6 +610,7 @@
                                                 data-id="undefined - 2019_3"
                                             />
                                             <path
+                                                class="hunger-annot-bar--2"
                                                 id="undefined - 2020_3-c0nc"
                                                 d="M602.931 248.608H559.72V456.295H602.931V248.608Z"
                                                 fill="#404040"
@@ -633,7 +635,7 @@
                                     </g>
                                 </g>
                             </g>
-                            <g id="annot_5-v73a" data-id="annot_5">
+                            <g id="annot_5-v73a" data-id="annot_5" class="hunger-annot-line--1">
                                 <path
                                     id="Line 5_5-0toj"
                                     d="M438.5 284.5C428.5 263 432 223.5 462.5 221.5"
@@ -646,7 +648,7 @@
                                     data-id="2017 saw the start of a steady rise in world hunger, owing largely to conflict, drought and disasters linked to climate change_2"
                                 />
                             </g>
-                            <g id="annot_6-vfui" data-id="annot_6">
+                            <g id="annot_6-vfui" data-id="annot_6"  class="hunger-annot-line--2">
                                 <g
                                     id="The Pandemic along with the Ukraine war lead to disruption of food supply chains, resulting in the largest global food crisis since the Second World War_3-d94u"
                                     data-id="The Pandemic along with the Ukraine war lead to disruption of food supply chains, resulting in the largest global food crisis since the Second World War_3"
@@ -2026,7 +2028,7 @@
                     </div>
                 </div>
                 <div
-                    class="milton__text milton__text--stroke"
+                    class="milton__text milton__text--stroke hunger-annot-text--1"
                     style="
 				        
 				        width: 41.36904761904761%;
@@ -2096,7 +2098,7 @@
                     </div>
                 </div>
                 <div
-                    class="milton__text milton__text--stroke"
+                    class="milton__text milton__text--stroke hunger-annot-text--2"
                     style="
 				        
 				        width: 51.636904761904766%;
