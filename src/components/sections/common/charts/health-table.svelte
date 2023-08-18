@@ -264,6 +264,7 @@
 
     .header-label:hover{
         background-color: #ccc;
+        cursor: pointer;
     }
     
 
