@@ -29,7 +29,7 @@
             </p>
         </div>
 
-        <div class="step" class:active={currentStep >= 1}>
+        <div class="step poverty-bar-chart" class:active={currentStep >= 1}>
             <PovertyBarChart />
         </div>
 
@@ -88,3 +88,22 @@
         </div>
     </Scrolly>
 </div>
+
+<style>
+	.poverty-bar-chart :global(.milton__embed .poverty-annot-bar),
+	.poverty-bar-chart :global(.milton__embed .poverty-annot-text),
+	.poverty-bar-chart :global(.milton__embed .poverty-annot-line) {
+		opacity: 0;
+		transition: opacity 600ms 900ms ease-in;
+	}
+
+    .poverty-bar-chart :global(.milton__embed .poverty-annot-bar){
+        transition-delay: 500ms;
+    }
+
+	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-bar),
+	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-text),
+	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-line) {
+		opacity: 1;
+	}
+</style>

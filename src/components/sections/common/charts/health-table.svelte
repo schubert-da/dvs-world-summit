@@ -34,10 +34,7 @@
     var selected_data = sdg_health_data.slice(0, num_rows);
     var filtered_data = sdg_health_data.slice(0, num_rows);
 
-    console.log(sdg_health_data);
-
-    function filterData(event) {
-        
+    function filterData(event) {    
         var key = event.target.value.toUpperCase();
         filtered_data = sdg_health_data.filter((a) => a["Country"].toUpperCase().includes(key));
 

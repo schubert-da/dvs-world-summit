@@ -10,7 +10,7 @@
 	import SourceAnnotation from "../../common/source-annotation.svelte";
 </script>
 
-<div class="milton__embed ">
+<div class="milton__embed">
 	<div class="milton__wrap" style="position: relative;">
 		<div class="milton__svg_container">
 			<svg
@@ -391,6 +391,7 @@
 											data-id="undefined - 2018_3"
 										/>
 										<path
+											class="poverty-annot-bar"
 											id="undefined - 2019_3-8j3u"
 											d="M638.06 323.286H582.661V448.823H638.06V323.286Z"
 											fill="#404040"
@@ -414,7 +415,7 @@
 									</g>
 								</g>
 							</g>
-							<g id="annot_3-0oo0" data-id="annot_3">
+							<g class="poverty-annot-line" id="annot_3-0oo0" data-id="annot_3">
 								<path
 									id="Line 5_3-armg"
 									d="M610.384 324.895C610.384 324.895 622 245.5 541 235.5"
@@ -1623,7 +1624,7 @@
 					</div>
 				</div>
 				<div
-					class="milton__text milton__text--stroke"
+					class="poverty-annot-text milton__text milton__text--stroke"
 					style="
 				        
 				        width: 39.732142857142854%;

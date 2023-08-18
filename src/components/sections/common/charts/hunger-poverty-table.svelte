@@ -34,8 +34,6 @@
     var selected_data = sdg_hunger_poverty_data.slice(0, num_rows);
     var filtered_data = sdg_hunger_poverty_data.slice(0, num_rows);
 
-    console.log(sdg_hunger_poverty_data);
-
     function filterData(event) {
         
         var key = event.target.value.toUpperCase();
@@ -58,9 +56,7 @@
             sorted_data = filtered_data.sort( (a,b) => a[column] - b[column] );
         }
 
-        // console.log(sorted_data);
         selected_data = sorted_data.slice(0, num_rows)
-        console.log(selected_data);
     }
 </script>
 
