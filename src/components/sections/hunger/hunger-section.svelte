@@ -35,10 +35,8 @@
                 scale food producers and family farmers require much greater
                 support and increased investment in infrastructure and
                 technology for sustainable agriculture is urgently needed. 
-                <strong>
-                    A fundamental shift in trajectory is needed to achieve the
-                    2030 nutrition targets
-                </strong>.
+                A fundamental shift in trajectory is needed to achieve the
+                2030 nutrition targets.
             </p>
 
             <p>

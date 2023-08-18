@@ -34,6 +34,10 @@
         </div>
 
         <div class="step" class:active={currentStep >= 2}>
+            <h3 class="para-header">
+                Life Expectancy
+            </h3>
+
             <p>
                 Life expectancy is the most commonly used measure used to
                 describe a population's health. Historical data shows that
@@ -49,11 +53,10 @@
 
         <div class="step" class:active={currentStep >= 4}>
             <p>
-                However, despite recent progress towards long-run cross-country
-                convergence, there are still huge differences that have to be
+                There are still huge differences that have to be
                 addressed: in several countries in Sub-Saharan Africa the
                 average life expectancy is still less than 60 years, compared to
-                more than 80 years in countries in Europe or in Japan.
+                more than 80 years in European countries or Japan.
             </p>
         </div>
 
