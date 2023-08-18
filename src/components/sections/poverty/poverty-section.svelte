@@ -69,7 +69,7 @@
             </p>
         </div>
 
-        <div class="step" class:active={currentStep >= 4}>
+        <div class="step poverty-projection-line-chart" class:active={currentStep >= 4}>
             <PovertyProjectionLineChart />
             <br />
         </div>
@@ -104,6 +104,29 @@
 	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-bar),
 	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-text),
 	.poverty-bar-chart.active :global(.milton__embed .poverty-annot-line) {
+		opacity: 1;
+	}
+
+	.poverty-projection-line-chart :global(.milton__embed .poverty-projection-line),
+	.poverty-projection-line-chart :global(.milton__embed .poverty-projection-text),
+	.poverty-projection-line-chart :global(.milton__embed .poverty-projection-dot) {
+		opacity: 0;
+		transition: opacity 600ms 2800ms ease-in, stroke-dashoffset 2000ms 1000ms linear;
+	}
+
+	.poverty-projection-line-chart :global(.milton__embed .poverty-projection-line) {
+        opacity: 1;
+		stroke-dasharray: 220 200;
+        stroke-dashoffset: 220;
+	}
+
+	.poverty-projection-line-chart.active :global(.milton__embed .poverty-projection-line) {
+        stroke-dashoffset: 0;
+	}
+
+	.poverty-projection-line-chart.active :global(.milton__embed .poverty-projection-line),
+	.poverty-projection-line-chart.active :global(.milton__embed .poverty-projection-text),
+	.poverty-projection-line-chart.active :global(.milton__embed .poverty-projection-dot) {
 		opacity: 1;
 	}
 </style>

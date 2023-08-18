@@ -284,6 +284,7 @@
                                                     data-id="COVID-19-baseline projection_2"
                                                 >
                                                     <path
+                                                        class="poverty-projection-line"
                                                         id="Vector_24-43v3"
                                                         d="M426.81 231.147L506.214 204.544L587.156 205.144"
                                                         stroke="#545454"
@@ -342,6 +343,7 @@
                                 data-id="Ellipse 5_2"
                             />
                             <circle
+                                class="poverty-projection-dot"
                                 id="Ellipse 6_2-xpcb"
                                 cx="589.5"
                                 cy="206.5"
@@ -1684,7 +1686,7 @@
                     </div>
                 </div>
                 <div
-                    class="milton__text milton__text--stroke"
+                    class="milton__text milton__text--stroke poverty-projection-text"
                     style="
 				        
 				        width: 27.525269881538723%;
